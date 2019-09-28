@@ -71,7 +71,7 @@ def load_data(city, month, day):
     print('Data summary for city: ', city, ' month:', month, ' day:', day)
     print('These are the available columns in the dataset:')
     print(rows.columns)
-    print('---------------------------------')
+    print('--------------------------------')
     print('First 5 rows of the data:')
     
 #     since all columns are not shown good, only an important subset is of columns are shown. Above I showed all the columns 
