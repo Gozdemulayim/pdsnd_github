@@ -69,7 +69,7 @@ def load_data(city, month, day):
     rows = df.iloc[0:5]
     print('---------------------------------')
     print('Data summary for city: ', city, ' month:', month, ' day:', day)
-    print('These are the available columns in the data:')
+    print('These are the available columns in the dataset:')
     print(rows.columns)
     print('---------------------------------')
     print('First 5 rows of the data:')
